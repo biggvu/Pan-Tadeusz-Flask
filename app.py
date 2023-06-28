@@ -105,6 +105,5 @@ def book_12():
     content_12 = "<h3>Ostatnia uczta staropolska - Arcyserwis - Objaśnienie jego figur - Jego ruchy - Dąbrowski udarowany - Jeszcze o Scyzoryku. - Kniaziewicz udarowany. - Pierwszy akt urzędowy Tadeusza przy objęciu dziedzictwa - Uwagi Gerwazego - Koncert nad koncertami - Polonez - Kochajmy się!</h3>"
     return render_template('k12.html', title = title_12, subtitle = subtitle_12, content = content_12)
 
-
 if __name__ == '__main__':
     app.run()
